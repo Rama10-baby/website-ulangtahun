@@ -1,0 +1,29 @@
+body {
+  background: linear-gradient(to right, #ff9a9e, #fad0c4);
+  text-align: center;
+  font-family: Arial;
+  overflow: hidden;
+}
+
+.container {
+  margin-top: 150px;
+  animation: fadeIn 2s ease-in;
+}
+
+h1 {
+  font-size: 40px;
+  color: white;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
